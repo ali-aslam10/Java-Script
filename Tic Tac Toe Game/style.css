@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-image: url(/images/background.jpg);
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+    /*background-repeat: no-repeat;  Prevents the background image from repeating */
+}
+#heading{
+    padding-top: 7vh;
+    color: burlywood;
+    font-size: xxx-large;
+   
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game
+{
+    height:60vh ;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1vmin;
+}
+.box
+{
+    background-image: url(/images/box.jpg);
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    height:18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 10px;
+    font-size: 8vmin;
+   
+
+}
+/* #reset_btn{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #6f1d1b;
+    background-color: burlywood;
+    font-size: large;
+    cursor: pointer;
+}
+#new_game
+{
+    margin-top: 20px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #6f1d1b;
+    background-color: burlywood;
+    font-size: large;
+    cursor: pointer;
+} */
+.btn
+{
+    margin-top: 20px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #6f1d1b;
+    background-color: burlywood;
+    font-size: large;
+    cursor: pointer;
+}
+#winner
+{
+    color: burlywood;
+    font-size: xxx-large;
+}
+.hide
+{
+    display: none;
+}
+

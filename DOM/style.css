@@ -1,0 +1,39 @@
+/* .box{
+    background-color: aquamarine;
+    height: 70px;
+    width: 100px;
+    border: 1px solid bisque;
+
+} */
+.content{
+    color: red;
+    font-size: 20px;
+}
+.background{
+    background-color: bisque;
+    
+}
+
+.dark
+{
+    background-color: black;
+    color: white;
+    
+}
+.light
+{
+    background-color: white;
+    color: black;
+}
+
+/* Button styles for dark mode */
+.dark #mode {
+    background-color: white;
+    color: black;
+}
+
+/* Button styles for light mode */
+.light #mode {
+    background-color: black;
+    color: white;
+}
